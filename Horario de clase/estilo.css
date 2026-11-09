@@ -1,11 +1,10 @@
+/* Tabla del horario */
 
 table {
     border-collapse: collapse;
     width: 80%;
 }
-.Titulo {
-    text-align: center;
-    color: #4a86e8;}
+
 th {
     border: 1px solid black;
     padding: 8px;
@@ -69,12 +68,4 @@ td {
 .fin {
     background-color: #eeeeee;
     font-weight: bold;
-
-    .titulo-horario {
-    color: #4a86e8;
-}
-
-.texto-horario {
-    color: #674ea7;
-}
 }

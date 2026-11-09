@@ -1,83 +1,14 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
-  
-<style>
-    table {
-        border-collapse: collapse;
-        width: 80%;
-        margin-top: 20px;
-    }
-
-    th {
-        background-color: #b6d7a8;
-        border: 1px solid black;
-        padding: 8px;
-        text-align: center;
-    }
-
-    td {
-        border: 1px solid black;
-        padding: 8px;
-        text-align: center;
-    }
-
-    /* Horas */
-    .hora {
-        background-color: #eeeeee;
-        font-weight: bold;
-    }
-
-    /* Cada asignatura tiene su propio color */
-    .siopr {
-        background-color: #cfe2f3;
-    }
-
-    .aplwe {
-        background-color: #d9ead3;
-    }
-
-    .serre {
-        background-color: #f4cccc;
-    }
-
-    .ipgm {
-        background-color: #fce5cd;
-    }
-
-    .ipe {
-        background-color: #eadcf8;
-    }
-
-    .an06312 {
-        background-color: #fff2cc;
-    }
-
-    .segin {
-        background-color: #c9daf8;
-    }
-
-    .pi {
-        background-color: #d9d2e9;
-    }
-
-    .recreo {
-        background-color: #f9cb9c;
-    }
-
-    /* Parte final */
-    .fin {
-        background-color: #eeeeee;
-        font-weight: bold;
-        text-align: center;
-    }
-</style>
-
     <meta charset="UTF-8">
     <meta name="author" content="TU NOMBRE">
-    <meta name="description" content="Horario de clase">
-    <meta name="keywords" content="horario, clase, ciclo">
-    <title>Horario de clase</title>
+    <meta name="description" content="Horario de clase de 2SMR">
+    <meta name="keywords" content="horario, clase, 2SMR">
+    <title>Mi horario de clase</title>
+
+    <link rel="stylesheet" href="estilo.css">
 </head>
 
 <body>
@@ -91,98 +22,226 @@
     </nav>
 
     <main>
+
         <h2>Horario semanal</h2>
-    <footer>
+
         <p>Mi horario de clase</p>
-    </footer>
-            <table border="1">
-            <thead>
-                <tr>
-                    <th>Hora</th>
-                    <th>Lunes</th>
-                    <th>Martes</th>
-                    <th>Miercoles</th>
-                    <th>Jueves</th>
-                    <th>Viernes</th>
-                </tr>
-            </thead>
 
-            <tbody>
-                <tr>
-                    <td>8:15 - 9:15</td>
-                    <td>SIOPR<br>Manuel Gonzalez Amate</td>
-                    <td>SIOPR<br>Manuel Gonzalez Amate</td>
-                    <td>AN06312<br>Rafael Ernesto Escobar Zurita</td>
-                    <td>SEGIN<br>Antonio Jesús López García</td>
-                    <td>SEGIN<br>Antonio Jesús López García</td>
-                </tr>
+        <table>
 
-                <tr>
-                    <td>9:15 - 10:15</td>
-                    <td>APLWE<br>Rafael Ernesto Escobar Zurita<br>
-                    Tutoria Dual Docente<br>Miguel Ángel Ruiz Díaz</td>
-                    <td>SIOPR<br>Manuel Gonzalez Amate</td>
-                    <td>APLWE<br>Rafael Ernesto Escobar Zurita</td>
-                    <td>SEGIN<br>Antonio Jesús López García</td>
-                    <td>SEGIN<br>Antonio Jesús López García</td>
-                </tr>
+            <tr>
+                <th>Hora</th>
+                <th>Lunes</th>
+                <th>Martes</th>
+                <th>Miércoles</th>
+                <th>Jueves</th>
+                <th>Viernes</th>
+            </tr>
 
-                <tr>
-                    <td>10:15 - 11:15</td>
-                    <td>SERRE<br>Francisco José Aranda Serrano<br>
-                    Tutoria Dual Docente<br>Miguel Ángel Ruiz Díaz</td>
-                    <td>IP GM<br>Clara Ruiz Roldán</td>
-                    <td>SERRE<br>Francisco José Aranda Serrano</td>
-                    <td>SIOPR<br>Manuel Gonzalez Amate</td>
-                    <td>AN06312<br>Rafael Ernesto Escobar Zurita</td>
-                </tr>
+            <tr>
+                <td class="hora">8:15 - 9:15</td>
 
-                <tr>
-                    <td>11:15 - 11:45</td>
-                    <td>Recreo</td>
-                    <td>Recreo</td>
-                    <td>Recreo</td>
-                    <td>Recreo</td>
-                    <td>Recreo</td>
-                </tr>
+                <td class="siopr">
+                    SIOPR<br>
+                    Manuel Gonzalez Amate
+                </td>
 
-                <tr>
-                    <td>11:45 - 12:45</td>
-                    <td>Tutoria Dual Docente<br>Miguel Ángel Ruiz Díaz<br>
-                    PI<br>Manuel Gonzalez Amate</td>
-                    <td>IPE II<br>Matilde Navarro León</td>
-                    <td>SIOPR<br>Manuel Gonzalez Amate</td>
-                    <td>SERRE<br>Francisco José Aranda Serrano</td>
-                    <td>IPE II<br>Matilde Navarro León</td>
-                </tr>
+                <td class="siopr">
+                    SIOPR<br>
+                    Manuel Gonzalez Amate
+                </td>
 
-                <tr>
-                    <td>12:45 - 13:45</td>
-                    <td>AN06312<br>Rafael Ernesto Escobar Zurita</td>
-                    <td>SERRE<br>Francisco José Aranda Serrano</td>
-                    <td>PI<br>Manuel Gonzalez Amate</td>
-                    <td>APLWE<br>Rafael Ernesto Escobar Zurita</td>
-                    <td>SIOPR<br>Manuel Gonzalez Amate</td>
-                </tr>
+                <td class="an06312">
+                    AN06312<br>
+                    Rafael Ernesto Escobar Zurita
+                </td>
 
-                <tr>
-                    <td>13:45 - 14:45</td>
-                    <td>IPE II<br>Matilde Navarro León</td>
-                    <td>SERRE<br>Francisco José Aranda Serrano</td>
-                    <td>IP GM<br>Clara Ruiz Roldán</td>
-                    <td>APLWE<br>Rafael Ernesto Escobar Zurita</td>
-                    <td>SERRE<br>Francisco José Aranda Serrano</td>
-                </tr>
-            </tbody>
+                <td class="segin">
+                    SEGIN<br>
+                    Antonio Jesús López García
+                </td>
 
-            <tfoot>
-                <tr>
-                    <td colspan="6">Fin del horario de clase</td>
-                </tr>
-            </tfoot>
+                <td class="segin">
+                    SEGIN<br>
+                    Antonio Jesús López García
+                </td>
+            </tr>
+
+            <tr>
+                <td class="hora">9:15 - 10:15</td>
+
+                <td class="aplwe">
+                    APLWE<br>
+                    Rafael Ernesto Escobar Zurita<br>
+                    Tutoría Dual Docente<br>
+                    Miguel Ángel Ruiz Díaz
+                </td>
+
+                <td class="siopr">
+                    SIOPR<br>
+                    Manuel Gonzalez Amate
+                </td>
+
+                <td class="aplwe">
+                    APLWE<br>
+                    Rafael Ernesto Escobar Zurita
+                </td>
+
+                <td class="segin">
+                    SEGIN<br>
+                    Antonio Jesús López García
+                </td>
+
+                <td class="segin">
+                    SEGIN<br>
+                    Antonio Jesús López García
+                </td>
+            </tr>
+
+            <tr>
+                <td class="hora">10:15 - 11:15</td>
+
+                <td class="serre">
+                    SERRE<br>
+                    Francisco José Aranda Serrano<br>
+                    Tutoría Dual Docente<br>
+                    Miguel Ángel Ruiz Díaz
+                </td>
+
+                <td class="ipgm">
+                    IP GM<br>
+                    Clara Ruiz Roldán
+                </td>
+
+                <td class="serre">
+                    SERRE<br>
+                    Francisco José Aranda Serrano
+                </td>
+
+                <td class="siopr">
+                    SIOPR<br>
+                    Manuel Gonzalez Amate
+                </td>
+
+                <td class="an06312">
+                    AN06312<br>
+                    Rafael Ernesto Escobar Zurita
+                </td>
+            </tr>
+
+            <tr>
+                <td class="hora">11:15 - 11:45</td>
+
+                <td class="recreo">Recreo</td>
+                <td class="recreo">Recreo</td>
+                <td class="recreo">Recreo</td>
+                <td class="recreo">Recreo</td>
+                <td class="recreo">Recreo</td>
+            </tr>
+
+            <tr>
+                <td class="hora">11:45 - 12:45</td>
+
+                <td class="pi">
+                    Tutoría Dual Docente<br>
+                    Miguel Ángel Ruiz Díaz<br>
+                    PI<br>
+                    Manuel Gonzalez Amate
+                </td>
+
+                <td class="ipe">
+                    IPE II<br>
+                    Matilde Navarro León
+                </td>
+
+                <td class="siopr">
+                    SIOPR<br>
+                    Manuel Gonzalez Amate
+                </td>
+
+                <td class="serre">
+                    SERRE<br>
+                    Francisco José Aranda Serrano
+                </td>
+
+                <td class="ipe">
+                    IPE II<br>
+                    Matilde Navarro León
+                </td>
+            </tr>
+
+            <tr>
+                <td class="hora">12:45 - 13:45</td>
+
+                <td class="an06312">
+                    AN06312<br>
+                    Rafael Ernesto Escobar Zurita
+                </td>
+
+                <td class="serre">
+                    SERRE<br>
+                    Francisco José Aranda Serrano
+                </td>
+
+                <td class="pi">
+                    PI<br>
+                    Manuel Gonzalez Amate
+                </td>
+
+                <td class="aplwe">
+                    APLWE<br>
+                    Rafael Ernesto Escobar Zurita
+                </td>
+
+                <td class="siopr">
+                    SIOPR<br>
+                    Manuel Gonzalez Amate
+                </td>
+            </tr>
+
+            <tr>
+                <td class="hora">13:45 - 14:45</td>
+
+                <td class="ipe">
+                    IPE II<br>
+                    Matilde Navarro León
+                </td>
+
+                <td class="serre">
+                    SERRE<br>
+                    Francisco José Aranda Serrano
+                </td>
+
+                <td class="ipgm">
+                    IP GM<br>
+                    Clara Ruiz Roldán
+                </td>
+
+                <td class="aplwe">
+                    APLWE<br>
+                    Rafael Ernesto Escobar Zurita
+                </td>
+
+                <td class="serre">
+                    SERRE<br>
+                    Francisco José Aranda Serrano
+                </td>
+            </tr>
+
+            <tr>
+                <td colspan="6" class="fin">
+                    Fin del horario de clase
+                </td>
+            </tr>
+
         </table>
+
     </main>
 
+    <footer>
+        <p>Horario de clase creado por Jesús Aguirrezabal</p>
+    </footer>
 
 </body>
+
 </html>
